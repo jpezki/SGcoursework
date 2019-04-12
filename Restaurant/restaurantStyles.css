@@ -1,0 +1,32 @@
+header, footer {
+	text-align: center;
+	
+}
+
+.restName {
+	font-family: 'Fascinate Inline', cursive;
+	font-size: 100px;
+}
+
+a {
+  font-family: sans-serif;
+  text-decoration: underline;
+  font-weight: none;
+  margin-right: 15px;
+}
+
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: red;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+a:active {
+  text-decoration: none;
+}

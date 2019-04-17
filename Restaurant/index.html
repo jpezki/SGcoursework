@@ -2,40 +2,102 @@
 <!-- 
 Name: Jasmine Kiili
 Date Created: 4/10/19
-<Most recent revision:
+<Most recent revision: 4/13/19
 -->
 <html lang="en">
 <head>
+<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+	
+	<link rel="stylesheet" type="text/css" href="restaurantStyles.css" />
+	<link href="https://fonts.googleapis.com/css?family=Fascinate+Inline" rel="stylesheet">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+	
 	<title>Home Page</title>
-		<link rel="stylesheet" type="text/css" href="restaurantStyles.css" />
-		<link href="https://fonts.googleapis.com/css?family=Fascinate+Inline" rel="stylesheet">
+		
 </head>
 	<body>
+		<div class="container">
 		<main>
 		<header>
+		
+		<noscript>
+		<div style="border: 1px solid purple; padding: 10px">
+        <span style="color:red">This site is best viewed with JavaScript enabled.</span>
+		</div>
+		</noscript>
+		
 		<h1 class="restName">Jazzy's Restaurant</h1>
 		</header>
-		<hr />
+		
+		<header class="jumbotron">
+		<h3>New location opening in June 2019!</h2>
+		
+		</header>
+				
 		<nav>
-		<p>
-		<a href="index.html" target="_blank">Home</a> 
-		<a href="menu.html" target="_blank">Menu</a>
-		<a href="contact-us.html" target="blank">Contact Us</a>
-		</p>
+		<ul class="nav nav-pills nav-justified">
+		<li><a class="btn" href="index.html" target="_blank"><i class="material-icons">home</i></a></li> 
+		<li><a class="btn" href="menu.html" target="_blank">Menu</a></li>
+		<li><a class="btn" href="contact-us.html" target="blank">Contact Us</a></li>
+		</ul>
 		</nav>
-		<div style="container-fluid; background-color: #BCB2C1;">
+		<br \>
+		<br \>
+		
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+		<!-- Indicators -->
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+			</ol>
+
+		<!-- Wrapper for slides -->
+		<div class="carousel-inner">
+		<div class="item active">
+			<img src="images/coming_soon.jpg" alt="New location coming in June 2019.">
+		</div>
+
+		<div class="item">
+			<img src="images/menu.jpg" alt="Seasonal menu featuring a wild strawberry fruit salad and bacon wrapped jalapeno poppers.">
+		</div>
+
+		<div class="item">
+			<img src="images/sg_brew.jpg" alt="Drink of the month is SG Special Brew.">
+		</div>
+		</div>
+
+		
+		</div>
+		
+		<br \>
+		<br \>
+		
+		<div style="container; background-color: #EEEEEE; padding-top: 20px;">
 			<div style="margin: 0 auto; width: 400px;">
 			<img src="images/description.jpg" alt="Picture of yummy food." style="padding-top: 15px;">
 			<p style="font-size: 20px; padding-top: 15px; margin-bottom: 0;">Restaurant Description</p>
 			<p style="font-size: 20px; margin-top: 0; padding-bottom: 50px;">Established in 1999, Jazzy's has become the local hot spot for nearly 20 years! Signature dishes include the 10 hour slow cooked Tenderloin Sandwich or the classic Italian Sausage and Peppers served with savory garlic mashers. Great for family dining or for casual gatherings with friends, Jazzy's will not disappoint!</p>
 			</div>
 		</div>
+		
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+		
 		<footer>
-			<p>99th Ave. Louisville, Kentucy 40123</p>
+			<p>99th Ave. Louisville, Kentucky 40123</p>
 			<p>(502) 555-0987
 			<hr />
 			</footer>
 		</main>
+		</div>
 	</body>
 	
 </html>
